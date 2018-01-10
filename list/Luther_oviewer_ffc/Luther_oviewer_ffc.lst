@@ -14,11 +14,11 @@ COUNT=11
 4=3085549
 5=2984938
 6=2596904
-7=3191828
-8=3127894
-9=3203438
-10=3191897
-11=3213640
+7=3203438
+8=3213641
+9=3213644
+10=4011064
+11=4011063
 
 [FFCONVS]
 TITLE=Word/Excel/PowerPoint 用 Microsoft Office 互換機能パック
@@ -116,38 +116,6 @@ RUN_ORDER=006
 CMD=/quiet /norestart
 COMMENT=
 
-[3191828]
-TITLE=Microsoft Office 2007 suites (KB3191828) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55382
-FILE=https://download.microsoft.com/download/1/6/6/16674E24-4623-4900-9F34-505E48DBDBCF/ogl2007-kb3191828-fullfile-x86-glb.exe
-RENAME=
-SIZE=6321184
-TYPE=HOTFIX
-CATEGORY=1
-TIE_UP=FFC_SP3
-XOR_KEY=
-SYNCHRO_KEY=
-RELEASE=2017/05/30
-RUN_ORDER=007
-CMD=/quiet /norestart
-COMMENT=
-
-[3127894]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB3127894) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55381
-FILE=https://download.microsoft.com/download/1/8/E/18EEAAA8-3ADF-45D2-96CE-1DABBF06CB34/pptconv2007-kb3127894-fullfile-x86-glb.exe
-RENAME=
-SIZE=1962696
-TYPE=HOTFIX
-CATEGORY=1
-TIE_UP=FFC_SP3
-XOR_KEY=
-SYNCHRO_KEY=
-RELEASE=2017/06/06
-RUN_ORDER=008
-CMD=/quiet /norestart
-COMMENT=
-
 [3203438]
 TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB3203438) のセキュリティ更新プログラム
 INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55375
@@ -160,38 +128,70 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/06/06
+RUN_ORDER=007
+CMD=/quiet /norestart
+COMMENT=
+
+[3213641]
+TITLE=Microsoft Office 2007 suites (KB3213641) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55898
+FILE=https://download.microsoft.com/download/7/8/8/7881882B-1B97-4E80-8BDD-D4A0D28194AD/ogl2007-kb3213641-fullfile-x86-glb.exe
+RENAME=
+SIZE=6214544
+TYPE=HOTFIX
+CATEGORY=1
+TIE_UP=FFC_SP3
+XOR_KEY=
+SYNCHRO_KEY=
+RELEASE=2017/09/04
+RUN_ORDER=008
+CMD=/quiet /norestart
+COMMENT=
+
+[3213644]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB3213644) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55899
+FILE=https://download.microsoft.com/download/A/C/A/ACA8CC30-0035-4868-AD75-F1F4094F70C8/pptconv2007-kb3213644-fullfile-x86-glb.exe
+RENAME=
+SIZE=1961144
+TYPE=HOTFIX
+CATEGORY=1
+TIE_UP=FFC_SP3
+XOR_KEY=
+SYNCHRO_KEY=
+RELEASE=2017/09/04
 RUN_ORDER=009
 CMD=/quiet /norestart
 COMMENT=
 
-[3191897]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB3191897) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55604
-FILE=https://download.microsoft.com/download/9/F/0/9F067D0D-1340-43EE-8BF0-706FC0C230DA/xlconv2007-kb3191897-fullfile-x86-glb.exe
+[4011064]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011064) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55938
+FILE=https://download.microsoft.com/download/2/6/E/26ECBB8A-394E-469C-A789-4BBC687B5CAB/xlconv2007-kb4011064-fullfile-x86-glb.exe
 RENAME=
-SIZE=9902848
+SIZE=9900104
 TYPE=HOTFIX
 CATEGORY=1
 TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
-RELEASE=2017/06/27
+RELEASE=2017/09/04
 RUN_ORDER=010
 CMD=/quiet /norestart
 COMMENT=
 
-[3213640]
-TITLE=Microsoft Office 2007 suites (KB3213640) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55611
-FILE=https://download.microsoft.com/download/B/4/E/B4E5F0EE-9569-44DD-8043-928DCED6913A/mso2007-kb3213640-fullfile-x86-glb.exe
+[4011063]
+TITLE=Microsoft Office 2007 suites (KB4011063) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55940
+FILE=https://download.microsoft.com/download/D/1/3/D1375E34-C740-4432-903E-FD643668CB82/mso2007-kb4011063-fullfile-x86-glb.exe
 RENAME=
-SIZE=13542776
+SIZE=13599176
 TYPE=HOTFIX
 CATEGORY=1
 TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
-RELEASE=2017/07/05
+RELEASE=2017/09/07
 RUN_ORDER=011
 CMD=/quiet /norestart
 COMMENT=
