@@ -16,9 +16,9 @@ COUNT=11
 6=2596904
 7=3213641
 8=3213644
-9=4011063
-10=4011205
-11=4011265
+9=4011201
+10=4011605
+11=4011607
 
 [FFCONVS]
 TITLE=Word/Excel/PowerPoint 用 Microsoft Office 互換機能パック
@@ -148,50 +148,50 @@ RUN_ORDER=008
 CMD=/quiet /norestart
 COMMENT=
 
-[4011063]
-TITLE=Microsoft Office 2007 suites (KB4011063) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55940
-FILE=https://download.microsoft.com/download/D/1/3/D1375E34-C740-4432-903E-FD643668CB82/mso2007-kb4011063-fullfile-x86-glb.exe
+[4011201]
+TITLE=Microsoft Office 2007 suites (KB4011201) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56423
+FILE=https://download.microsoft.com/download/A/C/6/AC6D693D-2508-426F-B159-D9888814C26D/mso2007-kb4011201-fullfile-x86-glb.exe
 RENAME=
-SIZE=13599176
+SIZE=13521024
 TYPE=HOTFIX
 CATEGORY=1
 TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
-RELEASE=2017/09/07
+RELEASE=2017/12/18
 RUN_ORDER=009
 CMD=/quiet /norestart
 COMMENT=
 
-[4011205]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011205) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56225
-FILE=https://download.microsoft.com/download/0/C/C/0CCED904-4726-44BF-9B67-3174774EA416/xlconv2007-kb4011205-fullfile-x86-glb.exe
+[4011605]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011605) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56445
+FILE=https://download.microsoft.com/download/D/4/B/D4B3FAE6-FC50-4366-A631-07F7652433FC/xlconv2007-kb4011605-fullfile-x86-glb.exe
 RENAME=
-SIZE=9899712
+SIZE=9908752
 TYPE=HOTFIX
 CATEGORY=1
 TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
-RELEASE=2017/10/30
+RELEASE=2017/12/18
 RUN_ORDER=010
 CMD=/quiet /norestart
 COMMENT=
 
-[4011265]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011265) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56249
-FILE=https://download.microsoft.com/download/6/0/8/6087B3FD-E6DD-48B9-B499-EE651B776A6F/wordconv2007-kb4011265-fullfile-x86-glb.exe
+[4011607]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011607) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56472
+FILE=https://download.microsoft.com/download/6/F/1/6F1A5B9A-ED3B-4C63-BDDA-26D762C51A37/wordconv2007-kb4011607-fullfile-x86-glb.exe
 RENAME=
-SIZE=4424264
+SIZE=4422040
 TYPE=HOTFIX
 CATEGORY=1
 TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
-RELEASE=2017/10/30
+RELEASE=2017/12/18
 RUN_ORDER=011
 CMD=/quiet /norestart
 COMMENT=
