@@ -14,11 +14,11 @@ COUNT=11
 4=3085549
 5=2984938
 6=2596904
-7=3203438
-8=3213641
-9=3213644
-10=4011064
-11=4011063
+7=3213641
+8=3213644
+9=4011064
+10=4011063
+11=3213647
 
 [FFCONVS]
 TITLE=Word/Excel/PowerPoint 用 Microsoft Office 互換機能パック
@@ -116,22 +116,6 @@ RUN_ORDER=006
 CMD=/quiet /norestart
 COMMENT=
 
-[3203438]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB3203438) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55375
-FILE=https://download.microsoft.com/download/5/F/5/5F571F92-CCFF-4174-9A11-04AE33D681AB/wordconv2007-kb3203438-fullfile-x86-glb.exe
-RENAME=
-SIZE=4422208
-TYPE=HOTFIX
-CATEGORY=1
-TIE_UP=FFC_SP3
-XOR_KEY=
-SYNCHRO_KEY=
-RELEASE=2017/06/06
-RUN_ORDER=007
-CMD=/quiet /norestart
-COMMENT=
-
 [3213641]
 TITLE=Microsoft Office 2007 suites (KB3213641) のセキュリティ更新プログラム
 INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=55898
@@ -144,7 +128,7 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/09/04
-RUN_ORDER=008
+RUN_ORDER=007
 CMD=/quiet /norestart
 COMMENT=
 
@@ -160,7 +144,7 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/09/04
-RUN_ORDER=009
+RUN_ORDER=008
 CMD=/quiet /norestart
 COMMENT=
 
@@ -176,7 +160,7 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/09/04
-RUN_ORDER=010
+RUN_ORDER=009
 CMD=/quiet /norestart
 COMMENT=
 
@@ -192,6 +176,22 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/09/07
+RUN_ORDER=010
+CMD=/quiet /norestart
+COMMENT=
+
+[3213647]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB3213647) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56063
+FILE=https://download.microsoft.com/download/3/0/3/303F463C-8141-42D1-9DCD-278AB1576537/wordconv2007-kb3213647-fullfile-x86-glb.exe
+RENAME=
+SIZE=4422904
+TYPE=HOTFIX
+CATEGORY=1
+TIE_UP=FFC_SP3
+XOR_KEY=
+SYNCHRO_KEY=
+RELEASE=2017/10/07
 RUN_ORDER=011
 CMD=/quiet /norestart
 COMMENT=

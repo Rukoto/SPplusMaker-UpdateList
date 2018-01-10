@@ -1,7 +1,7 @@
 # SPplusMaker-UpdateList
 
 ### 「SP+メーカー」用 "Word/Excel/PowerPoint ファイル形式用 Microsoft Office 互換機能パック" 追加専用 アップデートリスト
-[Luther_oviewer_ffc_170907.cab](https://github.com/Rukoto/SPplusMaker-UpdateList/raw/master/releases/Luther_oviewer_ffc_170907.cab)
+[Luther_oviewer_ffc_171006.cab](https://github.com/Rukoto/SPplusMaker-UpdateList/raw/master/releases/Luther_oviewer_ffc_171006.cab)
 
 ### 「SP+メーカー」用 Office 2003 アップデートリスト (KB2543854追加キット付)
 [Luther_o2k3_170604.cab](https://github.com/Rukoto/SPplusMaker-UpdateList/raw/master/releases/Luther_o2k3_170604.cab)
