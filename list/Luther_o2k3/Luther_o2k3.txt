@@ -1,0 +1,60 @@
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+「SP+メーカー」用 Office 2003 アップデートリスト
+    (KB2543854追加キット付)
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+「概要」
+ 　"SP+メーカー"付属の"default_o2k3.lst"をベースに、
+ Lutherが独自に改変したアップデートリストです。
+ 2017/06/04時点で最新の状態であること目標に作られています。
+ 時点の設定はHotfixのデジタル署名に基づいて定めています。
+ （SP+メーカーのバージョンアップの際等に、例外的に時点は変わります。）
+
+「対応OS」
+ ・Windows 2000 Service Pack 4
+ ・Windows XP Service Pack 1 以降
+ ・Windows Vista
+ ・Windows 7
+ ・Windows 8
+ ・Windows 10
+ ・Windows Server 2003
+ ・Windows Server 2008
+ ・Windows Server 2008 r2
+ ・Windows Server 2012
+ ・Windows Server 2016
+
+ 　上記の32ビット版に対応しております。 64ビット版では、
+ 　WOW 64 サブシステム上での動作において対応しています。
+ 　動作保証外のOSでは互換性による不具合に注意してください。
+
+「動作環境」
+ 　下記ソフトウェアが、最低でも1つインストールされている必要があります。
+ ・Microsoft Office Professional Enterprise Edition 2003
+ ・Microsoft Office Professional Edition 2003
+ ・Microsoft Office Standard Edition 2003
+ ・Microsoft Office Personal Edition 2003
+ ・Microsoft Office Word 2003
+ ・Microsoft Office Excel 2003
+ ・Microsoft Office Outlook 2003
+ ・Microsoft Office PowerPoint 2003
+ ・Microsoft Office Access 2003
+ ・Microsoft Office FrontPage 2003 
+ ・Microsoft Office Publisher 2003
+ ・Microsoft Office InfoPath 2003
+
+「使用方法」
+ 　SP+メーカーの"Office 2003"に対しての設定で、アップデートリストに
+ 本リストを選択することで使用することができます。
+
+「注意事項」
+ ・本アップデートリストを使用した事で生じた損害を一切補償しません。
+ ・本アップデートリストの著作権は、SP+メーカーの作者である古川明人氏に
+ 　譲渡する意思があり、譲渡されるまで「Luther」が保持します。ただし、
+ 　私が著作権を保持する間は、これを侵害される事を一切黙認します。
+ ・本リスト公開時において、セキュリティ更新プログラムが全て含まれて
+ 　いる事を目標にしていますが、保証しているわけではありません。
+ ・本アップデートリストのサポートは行いません。よって、本アップデート
+ 　リストを使用して問題が起こった際やリスト自体に誤りはあった場合、
+ 　御自身で問題解決できない方は使用しないで下さい。
+
+Copyright 2017 Luther All rights reserved.

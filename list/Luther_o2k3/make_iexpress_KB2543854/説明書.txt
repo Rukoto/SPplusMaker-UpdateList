@@ -1,0 +1,16 @@
+IEXPRESS化されたKB2543854を自作する為だけの簡易キットです。
+
+1.下記URLからKB2543854をダウンロードした後、解凍してAPDATA.mspを取り出してください。
+http://download.windowsupdate.com/msdownload/update/software/crup/2011/06/apdata_a6a392ae6bc233e5e6c1e622d8315f353f15a23e.cab
+
+2.下記URLからKB3203484をダウンロードした後、解凍してohotfix.exe、ohotfix.ini、ohotfixr.dllを取り出してください。
+https://download.microsoft.com/download/4/5/A/45A779AC-1559-44AE-8955-428C0EC2F5A5/office2003-KB3203484-FullFile-JPN.exe
+GDIPLUS.mspは不要です。
+
+3.office2003-KB2543854.sedと同じ階層に
+APDATA.msp、ohotfix.exe、ohotfix.ini、ohotfixr.dllを入れてください。
+
+4.ohotfix.iniの64行目を下記に書き換えてください。
+MessageTitle=Update for Office 2003 (KB2543854)
+
+5.office2003-KB2543854.batを実行するとoffice2003-KB2543854.exeを得られます。
