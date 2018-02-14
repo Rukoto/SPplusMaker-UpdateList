@@ -16,9 +16,9 @@ COUNT=11
 6=2596904
 7=3213641
 8=3213644
-9=4011201
-10=4011605
-11=4011607
+9=4011605
+10=4011607
+11=4011715
 
 [FFCONVS]
 TITLE=Word/Excel/PowerPoint 用 Microsoft Office 互換機能パック
@@ -148,22 +148,6 @@ RUN_ORDER=008
 CMD=/quiet /norestart
 COMMENT=
 
-[4011201]
-TITLE=Microsoft Office 2007 suites (KB4011201) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56423
-FILE=https://download.microsoft.com/download/A/C/6/AC6D693D-2508-426F-B159-D9888814C26D/mso2007-kb4011201-fullfile-x86-glb.exe
-RENAME=
-SIZE=13521024
-TYPE=HOTFIX
-CATEGORY=1
-TIE_UP=FFC_SP3
-XOR_KEY=
-SYNCHRO_KEY=
-RELEASE=2017/12/18
-RUN_ORDER=009
-CMD=/quiet /norestart
-COMMENT=
-
 [4011605]
 TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011605) のセキュリティ更新プログラム
 INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56445
@@ -176,7 +160,7 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/12/18
-RUN_ORDER=010
+RUN_ORDER=009
 CMD=/quiet /norestart
 COMMENT=
 
@@ -192,6 +176,22 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2017/12/18
+RUN_ORDER=010
+CMD=/quiet /norestart
+COMMENT=
+
+[4011715]
+TITLE=Microsoft Office 2007 suites (KB4011715) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56573
+FILE=https://download.microsoft.com/download/7/4/0/740D9C11-FD23-4245-BC96-01BBF7E160AE/mso2007-kb4011715-fullfile-x86-glb.exe
+RENAME=
+SIZE=13567400
+TYPE=HOTFIX
+CATEGORY=1
+TIE_UP=FFC_SP3
+XOR_KEY=
+SYNCHRO_KEY=
+RELEASE=2018/01/29
 RUN_ORDER=011
 CMD=/quiet /norestart
 COMMENT=
