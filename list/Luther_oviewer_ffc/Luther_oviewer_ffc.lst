@@ -17,8 +17,8 @@ COUNT=11
 7=3213641
 8=3213644
 9=4011605
-10=4011607
-11=4011715
+10=4011715
+11=4011720
 
 [FFCONVS]
 TITLE=Word/Excel/PowerPoint 用 Microsoft Office 互換機能パック
@@ -164,22 +164,6 @@ RUN_ORDER=009
 CMD=/quiet /norestart
 COMMENT=
 
-[4011607]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011607) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56472
-FILE=https://download.microsoft.com/download/6/F/1/6F1A5B9A-ED3B-4C63-BDDA-26D762C51A37/wordconv2007-kb4011607-fullfile-x86-glb.exe
-RENAME=
-SIZE=4422040
-TYPE=HOTFIX
-CATEGORY=1
-TIE_UP=FFC_SP3
-XOR_KEY=
-SYNCHRO_KEY=
-RELEASE=2017/12/18
-RUN_ORDER=010
-CMD=/quiet /norestart
-COMMENT=
-
 [4011715]
 TITLE=Microsoft Office 2007 suites (KB4011715) のセキュリティ更新プログラム
 INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56573
@@ -192,6 +176,22 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2018/01/29
+RUN_ORDER=010
+CMD=/quiet /norestart
+COMMENT=
+
+[4011720]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011720) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56675
+FILE=https://download.microsoft.com/download/4/C/7/4C794678-568D-4947-942C-1B2102C1E9A9/wordconv2007-kb4011720-fullfile-x86-glb.exe
+RENAME=
+SIZE=4421952
+TYPE=HOTFIX
+CATEGORY=1
+TIE_UP=FFC_SP3
+XOR_KEY=
+SYNCHRO_KEY=
+RELEASE=2018/02/21
 RUN_ORDER=011
 CMD=/quiet /norestart
 COMMENT=
