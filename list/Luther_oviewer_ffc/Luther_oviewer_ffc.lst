@@ -16,9 +16,9 @@ COUNT=11
 6=2596904
 7=3213641
 8=3213644
-9=4011605
-10=4011715
-11=4011720
+9=4011715
+10=4011717
+11=4018354
 
 [FFCONVS]
 TITLE=Word/Excel/PowerPoint 用 Microsoft Office 互換機能パック
@@ -148,22 +148,6 @@ RUN_ORDER=008
 CMD=/quiet /norestart
 COMMENT=
 
-[4011605]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011605) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56445
-FILE=https://download.microsoft.com/download/D/4/B/D4B3FAE6-FC50-4366-A631-07F7652433FC/xlconv2007-kb4011605-fullfile-x86-glb.exe
-RENAME=
-SIZE=9908752
-TYPE=HOTFIX
-CATEGORY=1
-TIE_UP=FFC_SP3
-XOR_KEY=
-SYNCHRO_KEY=
-RELEASE=2017/12/18
-RUN_ORDER=009
-CMD=/quiet /norestart
-COMMENT=
-
 [4011715]
 TITLE=Microsoft Office 2007 suites (KB4011715) のセキュリティ更新プログラム
 INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56573
@@ -176,22 +160,38 @@ TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
 RELEASE=2018/01/29
-RUN_ORDER=010
+RUN_ORDER=009
 CMD=/quiet /norestart
 COMMENT=
 
-[4011720]
-TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011720) のセキュリティ更新プログラム
-INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56675
-FILE=https://download.microsoft.com/download/4/C/7/4C794678-568D-4947-942C-1B2102C1E9A9/wordconv2007-kb4011720-fullfile-x86-glb.exe
+[4011717]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4011717) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56792
+FILE=https://download.microsoft.com/download/D/4/B/D4B3FAE6-FC50-4366-A631-07F7652433FC/xlconv2007-kb4011717-fullfile-x86-glb.exe
 RENAME=
-SIZE=4421952
+SIZE=9904584 
 TYPE=HOTFIX
 CATEGORY=1
 TIE_UP=FFC_SP3
 XOR_KEY=
 SYNCHRO_KEY=
-RELEASE=2018/02/21
+RELEASE=2018/03/26
+RUN_ORDER=010
+CMD=/quiet /norestart
+COMMENT=
+
+[4018354]
+TITLE=Microsoft Office Compatibility Pack Service Pack 3 (KB4018354) のセキュリティ更新プログラム
+INFO=https://www.microsoft.com/ja-jp/download/details.aspx?id=56800
+FILE=https://download.microsoft.com/download/4/C/7/4C794678-568D-4947-942C-1B2102C1E9A9/wordconv2007-kb4018354-fullfile-x86-glb.exe
+RENAME=
+SIZE=4423968
+TYPE=HOTFIX
+CATEGORY=1
+TIE_UP=FFC_SP3
+XOR_KEY=
+SYNCHRO_KEY=
+RELEASE=2018/03/26
 RUN_ORDER=011
 CMD=/quiet /norestart
 COMMENT=
